@@ -22,9 +22,9 @@ import random
 # output: list; combined list from multiple files containing only unique words,
 #           and "\n" stripped
 def readFiles(n):
-    fileList_4 = ['four_lc.txt', 'four_alpha.txt', 'old_four.txt']
-    fileList_3 = ['three_lc.txt','three_alpha.txt']
-    fileList_5 = ['five_lc.txt', 'five_alpha.txt']
+    fileList_4 = ['./resources/four_lc.txt', './resources/four_alpha.txt', './resources/old_four.txt']
+    fileList_3 = ['./resources/three_lc.txt','./resources/three_alpha.txt']
+    fileList_5 = ['./resources/five_lc.txt', './resources/five_alpha.txt']
 
     if n == 3:
         fileList = fileList_3
